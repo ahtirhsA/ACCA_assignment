@@ -1,0 +1,165 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+
+@media (max-width:860px){
+.head{
+    font-size:15px;
+
+}
+.pa{
+    font-size:12px;
+
+}
+.bigg{
+    padding: 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+}
+
+
+@media (min-width:860px){
+    .head{
+        font-size:30px;
+    }
+    .pa{
+        font-size:19px;
+
+    }
+    .bigg{
+        padding: 30px;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+    }
+    
+}
+
+
+
+
+.form{
+    background-color: white;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:15px;
+    padding-right:15px;
+    border-left:0;
+    border-right:0;
+    border-bottom:0;
+    border-top:4px;
+    border-style:solid;
+border-top-color:purple;
+}
+
+.heading{
+    font-family:'Roboto';
+    font-size:20px;
+    color:black;
+    font-weight:600;
+
+}
+
+.inp{
+    width: 100%;
+    outline:none;
+    padding: 10px;
+    border-radius:6px;
+    font-size:14px;
+    font-weight: 500;
+    border:1px solid rgb(72, 70, 70);
+}
+.inp-con{
+    margin-bottom:15px;
+}
+
+.sel{
+  border:1px solid rgb(72, 70, 70);
+  width: 100%;
+  outline:none;
+  padding: 10px;
+  border-radius:6px;
+position: relative; 
+appearance:auto;
+
+}
+.opt{
+    font-size:14px;
+    font-weight: 500;
+}
+
+.butt{
+    border:none;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+    font-size: 17px;
+    font-weight:600;
+    text-align:center;
+    padding: 13px;
+    width: 100%;
+}
+
+.err{
+    font-family:'Roboto';
+    font-size:14px;
+    color: red;
+    font-weight: 500;
+    margin-bottom:0;
+}
+
+.poppopup{
+    background-color:green;
+     width:20vw;
+     border-radius: 10px;
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items:center;
+     padding:10px;
+}
+
+.popHead{
+    color:white;
+    font-size:20px;
+    font-weight:600;
+
+}
+
+.ok{
+    background-color:rgb(62, 62, 142);
+    border:none;
+    color:white;
+    text-align:center;
+    padding: 10px;
+    border-radius:5px;
+
+}
+
+.bigg{
+    background-color:skyblue;
+}
+
+.head{
+    font-family:'Roboto';
+    font-weight:600;
+    color: black;
+    
+}
+.pa{
+    font-family:'Roboto';
+    color: black;
+    font-weight: 500;
+}
+
+.box1{
+    margin-top:40px;
+    box-sizing:content-box;
+}

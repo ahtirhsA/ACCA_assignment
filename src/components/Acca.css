@@ -1,0 +1,318 @@
+body, html {
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  @media (max-width:860px){
+      .dmain{
+        display:flex;
+        flex-direction:column;
+      }
+
+      .head1{
+        font-size:14px;
+      }
+
+      .pa1{
+        font-size:9px;
+      }
+
+      .pa11{
+        font-size:8px;
+      }
+      .pa111{
+        font-size:8px;
+
+      }
+
+      .dbutton{
+        font-size:12px;
+        padding: 7px;
+        border-radius:4px;
+
+      }
+      .form{
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-left:5px;
+        padding-right:5px;
+        flex-grow:1;
+      }
+      .heading{
+        font-size:13px;
+
+      }
+      .inp{
+        padding: 6px;
+        font-size:10px;
+        border-radius:3px;
+      }
+      .inp-con{
+        margin-bottom:8px;
+    }
+    .sel{
+      font-size:10px;
+      padding: 6px;
+  border-radius:3px;
+
+    }
+    .opt{
+      font-size:8px;
+     margin-bottom:0;
+    }
+    .butt{
+      font-size: 13px;
+      padding: 7px;
+      border-radius: 6px;
+    }
+    .err{
+      font-size:10px;
+
+    }
+    .poppopup{
+      width:50vw;
+    }
+    .card1{
+      padding: 3px;
+    }
+  }
+
+
+  @media (min-width:860px){
+    .dmain{
+      display:flex;
+      flex-direction:row;
+      justify-content:space-between;
+    }
+    .card1{
+      padding: 10px;
+
+    }
+
+    .head1{
+      font-size:19px;
+    }
+
+    .pa1{
+      font-size:13px;
+    }
+    .pa11{
+      font-size:11px;
+    }
+    .pa111{
+      font-size:11px;
+
+    }
+
+    .dbutton{
+      border-radius:7px;
+      padding: 10px;
+      font-size:16px;
+
+    }
+    .form{
+      padding-top:20px;
+      padding-bottom:20px;
+      padding-left:15px;
+      padding-right:15px;
+    }
+    .heading{
+      font-size:20px;
+
+    }
+    .inp{
+      font-size:14px;
+      padding: 10px;
+      border-radius:6px;
+
+    }
+    .inp-con{
+      margin-bottom:15px;
+  }
+  .sel{
+    font-size:14px;
+    padding: 10px;
+  border-radius:6px;
+  }
+  .opt{
+    font-size:14px;
+  }
+  .butt{
+    border-radius: 10px;
+    padding: 13px;
+    font-size: 17px;
+  }
+  .err{
+    font-size:14px;
+
+  }
+  .poppopup{
+    width:20vw;
+  }
+  }
+
+  .dmain{
+    background-color:rgb(202, 228, 238);
+    padding: 20px;
+    
+  }
+
+  .head1{
+    font-family:'Roboto';
+    color: black;
+    font-weight:bold;
+    text-align: left;
+    margin-bottom:18px;
+  }
+
+  .pa1{
+    font-family:'Roboto';
+    color: black;
+    font-weight:500;
+    margin-bottom:18px;
+  }
+
+  .card1{
+    background-color:rgb(207, 228, 236);
+    border-radius:6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-bottom-color:purple;
+    border-style:solid;
+    border-top-width:0;
+    border-left-width:0;
+    border-right-width:0;
+    border-bottom-width:3px;
+    margin-right: 15px;
+    width: 48%;
+    max-width:300px;
+    display:flex;
+    padding-bottom: 0;
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .pa11{
+    font-family:'Roboto';
+    color: black;
+    font-weight:600;
+    margin-left:8px;
+    box-sizing:content-box;
+margin-top:5px;    
+  }
+
+  .pa111{
+    font-family:'Roboto';
+    color: black;
+    font-weight:600;
+  }
+
+  .dbutton{
+    background-color: indigo;
+    color:#ffffff;
+    border:none;
+    text-align:center;
+    margin-top:13px;
+    margin-bottom: 20px;
+  }
+
+
+
+  .form{
+    background-color: white;
+    border-left:0;
+    border-right:0;
+    border-bottom:0;
+    border-top:4px;
+    border-style:solid;
+border-top-color:purple;
+position: relative;
+
+
+}
+
+.heading{
+    font-family:'Roboto';
+    color:black;
+    font-weight:600;
+text-align: center;
+}
+
+.inp{
+    width: 100%;
+    outline:none;
+    font-weight: 500;
+    border:1px solid rgb(72, 70, 70);
+}
+
+
+.sel{
+  border:1px solid rgb(72, 70, 70);
+  width: 100%;
+  outline:none;
+position: relative; 
+appearance:auto;
+cursor:pointer;
+
+}
+.opt{
+    font-weight: 500;
+}
+
+.butt{
+    border:none;
+ 
+    background-color: purple;
+    color: white;
+    
+    font-weight:600;
+    text-align:center;
+
+    width: 100%;
+}
+
+.err{
+    font-family:'Roboto';
+    color: red;
+    font-weight: 500;
+    margin-bottom:0;
+}
+
+.poppopup{
+    background-color:green;
+     border-radius: 10px;
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items:center;
+     padding:10px;
+}
+
+.popHead{
+    color:white;
+    font-size:20px;
+    font-weight:600;
+
+}
+
+.ok{
+    background-color:rgb(62, 62, 142);
+    border:none;
+    color:white;
+    text-align:center;
+    padding: 10px;
+    border-radius:5px;
+
+}
+
+.big{
+    background-color:skyblue;
+    padding: 30px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+}
+
